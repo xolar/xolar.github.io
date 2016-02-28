@@ -1,0 +1,13 @@
+name: proddit
+url: http://proddit.com
+description: ce-a mai ramas din proddit
+
+permalink: /:year/:month/:day/:title/
+paginate: 10
+#highlighter: pygments
+
+exclude: ['README.md', 'Gemfile.lock', 'Gemfile', 'Rakefile']
+
+host: 0.0.0.0
+
+gems: [jekyll-paginate]
