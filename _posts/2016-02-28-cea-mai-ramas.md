@@ -3,7 +3,7 @@ layout: post
 comments: true
 date:   2016-02-28 19:47
 categories: proddit nou
-title: Ce-a mai ramas din proddit
+title: Ce-a mai rămas din proddit
 ---
 
 Cam asta a mai ramas din proddit. 
