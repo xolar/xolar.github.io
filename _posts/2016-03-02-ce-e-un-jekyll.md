@@ -5,16 +5,16 @@ date:   2016-03-02 20:52
 categories: proddit github-pages jekyll
 title: Ce e un jekyll
 ---
-În traducere liberă, de pe [situl lor][1], jekyll este un generator _blog-aware_ de site static. Dintr-o structură de directoare dichisite cu tot ce înseamnă un site, gen html-uri (gen template), imagini, css-uri convertorul jekyll îţi creează un site static. 
+În traducere liberă, de pe [situl lor][1], jekyll este un generator _blog-aware_ de site static. Dintr-o structură de directoare dichisite cu tot ce înseamnă un site, html-uri (gen template), imagini, css-uri etc. convertorul jekyll îţi creează un site static. 
 
 [GitHub][2], pentru cine n-a auzit încă de el, e cel mai cunoscut repository [Git][3]. Pe GitHub există şi codul reddit, la fel şi [proddit][4], alături de alte milioane de proiecte publice sau nu. Pe GitHub Pages îţi poţi genera însă dintr-un proiect GitHub un site _jekyll_. Hostingul e gratuit, rapid. Păi pentru ce sa nu-l încercăm? 
 
-Cum îţi creezi un site din-ăsta într-o zi?! Îţi faci un cont pe GitHub apoi urmezi nişte [instrucţiuni][6] de pe GitHub. În mare copiezi de pe undeva un template gratuit jekyll, cum ar fi de [aici][5] şi te apuci de editat până te prinzi ce uşor e totul. Poţi teoretic edita fişierele direct pe GitHub. Dacă eşti un _hecăr_ cu un linux în reţea, cum ar fi un rPi sau un odroid C1 cu Ubuntu pe care îl foloseşti cu Kodi de obicei, îţi tragi jekyll pe cutie, dai un clone la repository-ul pe care tocmai ţi l-ai făcut, setezi jekyll în câţiva paşi simpli (te ajută google unde te blochezi), şi cu 
+Cum îţi creezi un site din-ăsta într-o zi?! Îţi faci un cont pe GitHub apoi urmezi nişte [instrucţiuni][6] de pe GitHub. În mare copiezi de pe undeva un template gratuit jekyll, cum ar fi de [aici][5] şi te apuci de editat până te prinzi ce uşor e totul. Poţi teoretic edita fişierele direct pe GitHub. Dacă eşti un _hecăr_ cu un linux în reţea, cum ar fi un rPi sau un [odroid C1][7] cu Ubuntu pe care îl foloseşti cu Kodi de obicei, îţi tragi jekyll pe cutie, dai un clone la repository-ul pe care tocmai ţi l-ai făcut, setezi jekyll în câţiva paşi simpli (te ajută google unde te blochezi), şi cu 
 
 ```shell
 jekyll serve -w    
 ```
-îţi testezi situl pe _localhost:4000_ şi îl purici până îţi trece ruşinea că o să-l pui să-l vadă toată lumea. 
+îţi testezi situl pe _cutie:4000_ şi îl purici până îţi trece ruşinea că o să-l pui să-l vadă toată lumea. 
 
 Ciornă din _.bash_history_ (am urmat în mare comenzile de pe [GitHub Pages][6]): 
 
@@ -71,3 +71,4 @@ _gem-ul_ github-pages îl instalezi ca să fii sigur că eşti pe aceeaşi pagin
 [4]:	https://github.com/xolar
 [5]:	http://jekyllthemes.io/
 [6]:	https://help.github.com/articles/using-jekyll-as-a-static-site-generator-with-github-pages/
+[7]:	http://www.hardkernel.com/main/products/prdt_info.php?g_code=G143703355573
