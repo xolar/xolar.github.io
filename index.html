@@ -17,6 +17,7 @@ title: proddit
 		{% endif %}
 
 		<div class="post-content">{{ post.content }}</div>
+		<a href="{{ post.url }}#disqus_thread" data-disqus-identifier="{{post.date}}">Comentarii</a>
 
 	</article>
 
@@ -49,4 +50,4 @@ title: proddit
 {% endif %}
 
 {% include googleanal.html %}
-
+<script id="dsq-count-scr" src="//proddit.disqus.com/count.js" async></script>
