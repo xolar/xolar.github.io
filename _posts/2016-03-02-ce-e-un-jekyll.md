@@ -7,6 +7,12 @@ title: Ce e un jekyll
 ---
 În traducere liberă, de pe [situl lor][1], jekyll este un generator _blog-aware_ de site static. Dintr-o structură de directoare dichisite cu tot ce înseamnă un site, html-uri (gen template), imagini, css-uri etc. convertorul jekyll îţi creează un site static. 
 
+De ce însă un site static? Păi avantajul e că e mai rapid ca unul dinamic, sau cel mai corect ar fi să spun că consumă mai puţine resurse decât unul dinamic. De siguranţă să nici nu vorbesc. 
+
+[![WP](/images/wpvuln.jpg)](http://www.securityfocus.com/)
+
+17 pagini de vulnerabilităţi WordPress. Holy shit.
+
 [GitHub][2], pentru cine n-a auzit încă de el, e cel mai cunoscut repository [Git][3]. Pe GitHub există şi codul reddit, la fel şi [proddit][4], alături de alte milioane de proiecte publice sau nu. Pe GitHub Pages îţi poţi genera însă dintr-un proiect GitHub un site _jekyll_. Hostingul e gratuit, rapid. Păi pentru ce sa nu-l încercăm? 
 
 Cum îţi creezi un site din-ăsta într-o zi?! Îţi faci un cont pe GitHub apoi urmezi nişte [instrucţiuni][6] de pe GitHub. În mare copiezi de pe undeva un template gratuit jekyll, cum ar fi de [aici][5] şi te apuci de editat până te prinzi ce uşor e totul. Poţi teoretic edita fişierele direct pe GitHub. Dacă eşti un _hecăr_ cu un linux în reţea, cum ar fi un rPi sau un [odroid C1][7] cu Ubuntu pe care îl foloseşti cu Kodi de obicei, îţi tragi jekyll pe cutie, dai un clone la repository-ul pe care tocmai ţi l-ai făcut, setezi jekyll în câţiva paşi simpli (te ajută google unde te blochezi), şi cu 
