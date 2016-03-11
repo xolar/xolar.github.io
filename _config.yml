@@ -1,6 +1,6 @@
 name: proddit
 url: http://proddit.com
-description: ce-a mai rămas din proddit
+description: arată ca un notepad
 
 permalink: /:year/:month/:day/:title/
 paginate: 10
