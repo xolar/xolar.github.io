@@ -10,3 +10,8 @@ _<sup><sup>spaţiu</sup></sup>_
 _<sup>Eclipsa recentă văzută din spaţiu</sup>_  
 
 
+## [![pic](http://apod.nasa.gov/apod/image/1603/tseTafreshi_DSC5231Ps.jpg)](http://apod.nasa.gov/apod/image/1603/tseTafreshi_DSC5231Ps.jpg)<sup><sup><sup>apod.nasa.gov</sup></sup></sup>  
+_<sup><sup>spaţiu</sup></sup>_  
+_<sup>Şi eclipsa văzută de jos acum.</sup>_  
+
+
