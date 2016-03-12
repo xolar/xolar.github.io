@@ -285,3 +285,7 @@ img.center {
 	content:url('/images/pdogtitle.png');
 	vertical-align: text-top;
 }
+img[alt="pic"] { 
+  max-width:  600px; 
+  display: block;
+}
