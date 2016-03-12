@@ -36,6 +36,10 @@ blockquote {
 	border-color: #cb4b16;
 }
 
+hr {
+    color: #073642;
+}
+
 #sidebar a:hover {
 	color: #2aa198;
 	background-color: #073642;
