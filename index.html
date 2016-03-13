@@ -17,7 +17,12 @@ title: proddit
 		{% endif %}
 
 		<div class="post-content">{{ post.content }}</div>
-		<a href="{{ post.url }}#disqus_thread" data-disqus-identifier="{{post.date}}">Comentarii</a>
+		<div>
+		    <a href="{{ post.url }}#disqus_thread" data-disqus-identifier="{{post.date}}">Comentarii</a>
+		    <span style="float: right;" class="meta">
+			<span class="postdate">{{ post.date | date: "%d.%m.%Y" }} </span>
+		    </span>
+		</div>
 
 	</article>
 

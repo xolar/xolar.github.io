@@ -6,7 +6,7 @@ categories: proddit linkurile-zilei programare
 title: Ce sunt linkurile zilei
 ---
 
-Linkurile zilei sunt pentru cei care s-au obisnuit să găsească ceva pe proddit pe care să dea click. În mod evident, doar eu mai pot posta acum. N-ar trebui să fie o problemă asta considerând că majoritatea postărilor veneau tot de la mine pe vechiul proddit.
+Linkurile zilei sunt pentru cei care s-au obişnuit să găsească ceva pe proddit pe care să dea click. În mod evident, doar eu mai pot posta acum. N-ar trebui să fie o problemă asta considerând că majoritatea postărilor veneau tot de la mine pe vechiul proddit.
 
 Ca să-mi fac viaţa mai uşoară am făcut pe odroid-ul (Ubuntu 14.04) menţionat în [postarea despre jekyll][1] o mini-aplicaţie pe _[node.js][2]_, pe care rulează în browser un _form html_ ca mai jos (ca bookmarkleturile pe vechiul proddit). Acolo pot edita titlul, url-ul, categoriile şi un comentariu. După _submit_, nişte funcţii _javascript_ creează sau completează un fişier în format _markdown_. La urmă e chemat un script care face un _push_ pe github la noua postare. Imaginile şi postările youtube sunt integrate ca imagini. 
 
