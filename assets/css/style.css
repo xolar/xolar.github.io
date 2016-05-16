@@ -139,26 +139,47 @@ h3 {
 	margin: 0 auto;
 }
 
-#sidebar {
+#sidebarleft {
 	position: absolute;
 	text-align: right;
+	float: left;
 	width: 160px;
 	top: 50px;
 	left: -240px;
 }
 
-#sidebar li {
+#sidebarleft li {
 	list-style: none;
 	margin: 2px 0;
 }
 
-#sidebar a {
+#sidebarleft a {
 	border: none;
 	font-family: "Helvetica Neue", "Helvetica", serif;
 	font-size: 1.2em;
 	padding: 2px 4px;
 }
 
+#sidebarright {
+	position: absolute;
+	text-align: left;
+	float:right;
+	width: 300px;
+	top: 50px;
+	right: -300px;
+}
+
+#sidebarright li {
+	list-style: none;
+	margin: 2px 0;
+}
+
+#sidebarright a {
+	border: none;
+	font-family: "Helvetica Neue", "Helvetica", serif;
+	font-size: 1.2em;
+	padding: 2px 4px;
+}
 
 
 /*** Posts ***/
@@ -226,22 +247,46 @@ img.center {
 @media all and (max-width: 870px) {
 
 	#page, #header, #content, #footer {
-		width: inherit;
+		width: 95%;
 		padding-left: 10px;
 		padding-right: 10px;
 	}
 
-	#sidebar {
-		position: relative;
+	#content {
+		padding-top: 130px;
+	}
+
+	#sidebarleft {
+		position: absolute;
+		width: 50%;
 		text-align: left;
-		width: 100%;
+		top: -30px;
 		left: 0;
+		margin: 10px 10px 20px 10px;
+		height: 200px;
+	}
+
+	#sidebarleft nav select.mnav {
+		display: block;
+		margin-bottom: 15px;
+	}
+
+	#sidebarright {
+		position: absolute;
+		text-align: right;
+		width: 50%;
+		top: -30px;
+		right: 30px;
 		margin: 10px 10px 20px 10px;
 	}
 
-	#sidebar nav select.mnav {
+	#sidebarright nav select.mnav {
 		display: block;
 		margin-bottom: 15px;
+	}
+
+	#content img {
+	    width: 80%;
 	}
 
 }
